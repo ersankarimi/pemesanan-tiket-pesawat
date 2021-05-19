@@ -9,8 +9,8 @@ public class PilihKota {
     private  List<String> daftarKota;
 
     // variabel inputan
-    private byte pilKotaAsal;
-    private byte pilKotaTujuan;
+    protected byte pilKotaAsal;
+    protected byte pilKotaTujuan;
 
 
     // constructor
@@ -62,6 +62,7 @@ public class PilihKota {
             exitPil();
         } else if (this.pilKotaTujuan > 5){
             elsePil();
+            kotaTujuan();
         }
         System.out.println(" ");
 
@@ -75,30 +76,33 @@ public class PilihKota {
 
     // method jika pilihan tidak ada di daftar
     private void elsePil() {
+        System.out.println(" ");
+        System.out.println("--------------------------------------------");
         System.out.println("Maaf Pilihan Tidak Ada di Daftar!");
         System.out.println("Silahkan Pilih Sesuai Pilihan yang Tersedia!");
+        System.out.println("--------------------------------------------");
         System.out.println(" ");
     }
 
     // method
-    public void pilihKota(){
-//        var looping = true;
-        while (true){
-            kotaAsal();
-            if (this.pilKotaAsal == 1){
-                kotaTujuan();
-            } else if (this.pilKotaAsal == 2){
-                kotaTujuan();
-            } else if (this.pilKotaAsal == 3){
-                kotaTujuan();
-            } else if (this.pilKotaAsal == 4){
-                kotaTujuan();
-            } else if (this.pilKotaAsal == 5){
-                exitPil();
-            } else {
-                elsePil();
-            }
-
+    public PilihKota pilihKota(){
+        kotaAsal();
+        if (this.pilKotaAsal == 1){
+            kotaTujuan();
+        } else if (this.pilKotaAsal == 2){
+            kotaTujuan();
+        } else if (this.pilKotaAsal == 3){
+            kotaTujuan();
+        } else if (this.pilKotaAsal == 4){
+            kotaTujuan();
+        } else if (this.pilKotaAsal == 5){
+            exitPil();
+        } else {
+            elsePil();
+            return pilihKota();
         }
+
+        return null;
     }
+
 }

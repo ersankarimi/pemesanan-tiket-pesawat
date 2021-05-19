@@ -1,7 +1,6 @@
 package pemesanantiketpesawat;
 
-import pemesanantiketpesawat.data.Header;
-import pemesanantiketpesawat.data.PilihKota;
+import pemesanantiketpesawat.data.*;
 
 public class App {
 
@@ -9,5 +8,11 @@ public class App {
 
         Header header = new Header();
         PilihKota pilihKota = new PilihKota();
+        SetKota setKota = new SetKota(pilihKota);
+        DaftarPilihanTiket daftarPilihanTiket = new DaftarPilihanTiket(pilihKota);
+        PilihKodePenerbangan pilihKodePenerbangan = new PilihKodePenerbangan();
+        SetKodePenerbangan setKodePenerbangan = new SetKodePenerbangan(pilihKodePenerbangan);
+        SetNamaMaskapai setNamaMaskapai = new SetNamaMaskapai(pilihKodePenerbangan);
+        SetHargaTiket setHargaTiket = new SetHargaTiket(pilihKodePenerbangan);
     }
 }
