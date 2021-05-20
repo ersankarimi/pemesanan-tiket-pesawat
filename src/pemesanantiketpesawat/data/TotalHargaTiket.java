@@ -6,6 +6,7 @@ public class TotalHargaTiket {
     Penumpang penumpangTiket = null;
     protected long hargaTiketnya;
     protected byte banyakPenumpang;
+    protected long totalHarga;
 
     public TotalHargaTiket(SetHargaTiket setTotalTiket, Penumpang penumpangTiket) {
         this.setTotalTiket = setTotalTiket;
@@ -25,7 +26,7 @@ public class TotalHargaTiket {
 
     // method kalkulasi harga tiket
     public void kalkulasiHargaTiket(){
-        long totalHarga = this.banyakPenumpang * this.hargaTiketnya;
+        this.totalHarga = this.banyakPenumpang * this.hargaTiketnya;
         System.out.println(" ");
 
         System.out.println("Jumlah Tiket yang Dipesan sebanyak : " + penumpangTiket.jumPenumpang + " Tiket");

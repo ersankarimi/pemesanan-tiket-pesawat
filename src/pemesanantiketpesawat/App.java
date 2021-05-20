@@ -9,6 +9,7 @@ public class App {
         Header header = new Header();
         PilihKota pilihKota = new PilihKota();
         SetKota setKota = new SetKota(pilihKota);
+
         DaftarPilihanTiket daftarPilihanTiket = new DaftarPilihanTiket(pilihKota);
         PilihKodePenerbangan pilihKodePenerbangan = new PilihKodePenerbangan();
         SetKodePenerbangan setKodePenerbangan = new SetKodePenerbangan(pilihKodePenerbangan);
@@ -17,5 +18,9 @@ public class App {
         TujuanAsal tujuanAsal = new TujuanAsal(setKota);
         Penumpang penumpang = new Penumpang();
         TotalHargaTiket totalHargaTiket = new TotalHargaTiket(setHargaTiket, penumpang);
+        Transfer transfer = new Transfer(totalHargaTiket);
+
+//        SetelahTf setelahTf = new SetelahTf();
+
     }
 }
