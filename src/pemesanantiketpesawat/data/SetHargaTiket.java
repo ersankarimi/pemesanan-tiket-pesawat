@@ -48,8 +48,6 @@ public class SetHargaTiket {
 
     // method cetak tiket
     public void cetakTiket(){
-        System.out.println("Dengan Harga Tiket per Orang     : Rp " + getHargaTiket());
-        System.out.println("-----------------------------------");
-        System.out.println(" ");
+        System.out.println("Harga Tiket per Orang            : Rp " + getHargaTiket());
     }
 }

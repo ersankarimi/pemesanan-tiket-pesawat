@@ -14,5 +14,8 @@ public class App {
         SetKodePenerbangan setKodePenerbangan = new SetKodePenerbangan(pilihKodePenerbangan);
         SetNamaMaskapai setNamaMaskapai = new SetNamaMaskapai(pilihKodePenerbangan);
         SetHargaTiket setHargaTiket = new SetHargaTiket(pilihKodePenerbangan);
+        TujuanAsal tujuanAsal = new TujuanAsal(setKota);
+        Penumpang penumpang = new Penumpang();
+        TotalHargaTiket totalHargaTiket = new TotalHargaTiket(setHargaTiket, penumpang);
     }
 }
