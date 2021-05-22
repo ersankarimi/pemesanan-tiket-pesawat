@@ -32,7 +32,7 @@ public class Penumpang {
 
             System.out.println(" ");
             System.out.println("Silahkan Masukkan Data Diri Penumpang " + i);
-            System.out.print("Nama Penumpang : ");
+            System.out.print("Nama Depan : ");
             this.namaPenumpang = sc.next();
             daftarNamaPenumpang.add(namaPenumpang);
             System.out.println(" ");

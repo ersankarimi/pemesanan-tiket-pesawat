@@ -20,7 +20,7 @@ public class SetKodePenerbangan {
 
 
         System.out.println(" ");
-        System.out.println("-----------------------------------");
+        System.out.println("---------------------------------------------------");
         System.out.println("Anda Memilih Kode Penerbangan    : " + kodePenerbangan);
 
     }

@@ -58,7 +58,15 @@ public class PilihKota {
 
         System.out.print("Masukkan Pilihan [1-5] : ");
         this.pilKotaTujuan = sc.nextByte();
-        if (this.pilKotaTujuan == 5){
+
+        if (this.pilKotaTujuan == this.pilKotaAsal){
+            System.out.println(" ");
+            System.out.println("Kota Tujuan Tidak Boleh Sama dgn Kota Asal!");
+            System.out.println("Silahkan Pilih Kota yg Berbeda dgn Kota Asal!");
+            System.out.println(" ");
+            kotaTujuan();
+        }
+        else if (this.pilKotaTujuan == 5){
             exitPil();
         } else if (this.pilKotaTujuan > 5){
             elsePil();

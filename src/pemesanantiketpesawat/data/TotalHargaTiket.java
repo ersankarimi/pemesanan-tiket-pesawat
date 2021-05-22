@@ -30,7 +30,10 @@ public class TotalHargaTiket {
         System.out.println(" ");
 
         System.out.println("Jumlah Tiket yang Dipesan sebanyak : " + penumpangTiket.jumPenumpang + " Tiket");
-        System.out.println("Total Harga Tiket yang di Pesan    : Rp " + totalHarga);
+        if (totalHarga > 1000000){
+            System.out.println("Total Harga Tiket yang di Pesan    : Rp " + totalHarga + "jt");
+        } else System.out.println("Total Harga Tiket yang di Pesan    : Rp " + totalHarga + "rb");
+
     }
 
 }

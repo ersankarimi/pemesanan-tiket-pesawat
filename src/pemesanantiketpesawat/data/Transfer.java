@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Transfer {
 
-    TotalHargaTiket totalHargaTiketTransfer;
+    TotalHargaTiket  totalHargaTiketTransfer;
     List<String> daftarRekening;
     List<String> daftraBank;
 
@@ -23,13 +23,16 @@ public class Transfer {
 
     // method
     public void rekeningTransfer(){
-
+        System.out.println(" ");
         System.out.println("---------------------------------------");
         System.out.println("Silahkan Transfer ke rekening berikut : " );
         for (byte i = 0 ; i < daftraBank.size(); i++){
             System.out.println(daftraBank.get(i) + " : " + daftarRekening.get(i));
         }
-        System.out.println("Transfer sebanyak Rp " + totalHargaTiketTransfer.totalHarga);
+
+        if (totalHargaTiketTransfer.totalHarga > 1000000){
+            System.out.println("Transfer sebanyak Rp " + totalHargaTiketTransfer.totalHarga +"jt");
+        } else System.out.println("Transfer sebanyak Rp " + totalHargaTiketTransfer.totalHarga + "rb");
         System.out.println("Screenshot Bukti Pembayaran Sebagai Bukti Pembayaran!");
         System.out.println("---------------------------------------");
     }

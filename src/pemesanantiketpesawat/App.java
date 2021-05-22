@@ -20,7 +20,9 @@ public class App {
         TotalHargaTiket totalHargaTiket = new TotalHargaTiket(setHargaTiket, penumpang);
         Transfer transfer = new Transfer(totalHargaTiket);
 
-//        SetelahTf setelahTf = new SetelahTf();
+        SetelahTf setelahTf = new SetelahTf();
+        Progress progress = new Progress();
+        CetakTiket cetakTiket = new CetakTiket(setNamaMaskapai, penumpang, setKota);
 
     }
 }

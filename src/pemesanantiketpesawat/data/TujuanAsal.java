@@ -17,7 +17,7 @@ public class TujuanAsal {
 
         System.out.println("Asal Kota Penerbagan             : " + asalNya);
         System.out.println("Tujuan Kota Penerbagan           : " + tujuanNya);
-        System.out.println("-----------------------------------");
+        System.out.println("---------------------------------------------------");
         System.out.println(" ");
     }
 
