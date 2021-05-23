@@ -22,7 +22,8 @@ public class App {
 
         SetelahTf setelahTf = new SetelahTf();
         Progress progress = new Progress();
-        CetakTiket cetakTiket = new CetakTiket(setNamaMaskapai, penumpang, setKota);
+        IdTicket idTicket = new IdTicket(penumpang);
+        CetakTiket cetakTiket = new CetakTiket(setNamaMaskapai, penumpang, setKota,idTicket);
 
     }
 }

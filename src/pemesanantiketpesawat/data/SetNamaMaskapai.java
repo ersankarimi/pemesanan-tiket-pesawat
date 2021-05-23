@@ -31,7 +31,7 @@ public class SetNamaMaskapai {
     public void pengecekanNamaMaskapai(){
         if (namaMaskapaiPenerbangan.getKodePenerbangan() == 101 || namaMaskapaiPenerbangan.getKodePenerbangan() == 201 || namaMaskapaiPenerbangan.getKodePenerbangan() == 301 || namaMaskapaiPenerbangan.getKodePenerbangan() == 401){
             setNamaMaskapai("Sriwijaya Air");
-        } else if (namaMaskapaiPenerbangan.getKodePenerbangan() == 102 || namaMaskapaiPenerbangan.getKodePenerbangan() == 202 || namaMaskapaiPenerbangan.getKodePenerbangan() == 303 || namaMaskapaiPenerbangan.getKodePenerbangan() == 402){
+        } else if (namaMaskapaiPenerbangan.getKodePenerbangan() == 102 || namaMaskapaiPenerbangan.getKodePenerbangan() == 202 || namaMaskapaiPenerbangan.getKodePenerbangan() == 302 || namaMaskapaiPenerbangan.getKodePenerbangan() == 402){
             setNamaMaskapai("Garuda Indonesia");
         } else if (namaMaskapaiPenerbangan.getKodePenerbangan() == 103 || namaMaskapaiPenerbangan.getKodePenerbangan() == 203 || namaMaskapaiPenerbangan.getKodePenerbangan() == 303 || namaMaskapaiPenerbangan.getKodePenerbangan() == 403){
             setNamaMaskapai("Lion Air");
