@@ -1,16 +1,7 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-<<<<<<< HEAD
+/src/
 
-
-# Created by https://www.toptal.com/developers/gitignore/api/intellij,intellij+iml,java,windows
-# Edit at https://www.toptal.com/developers/gitignore?templates=intellij,intellij+iml,java,windows
+# Created by https://www.toptal.com/developers/gitignore/api/windows,java,intellij,intellij+iml
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,java,intellij,intellij+iml
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
@@ -219,6 +210,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/intellij,intellij+iml,java,windows
-=======
->>>>>>> 11c3c34 (update)
+# End of https://www.toptal.com/developers/gitignore/api/windows,java,intellij,intellij+iml
