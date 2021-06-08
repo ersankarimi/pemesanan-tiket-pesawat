@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/Ersan/IdeaProjects/projek-tugas-besar-oop/src</OriginalElement>
+  <nodes>
+    <node x="10.5" y="1488.5">pemesanantiketpesawat.data.IdTicket</node>
+    <node x="1993.446140917044" y="1889.0">pemesanantiketpesawat.data.SetDaftarPilihanTiket</node>
+    <node x="3872.7836501613547" y="488.0">pemesanantiketpesawat.datahotel.PilihHotel</node>
+    <node x="784.625" y="1444.5">pemesanantiketpesawat.data.TotalHargaTiket</node>
+    <node x="3248.042291078398" y="1911.0">pemesanantiketpesawat.data.LoadingTiket</node>
+    <node x="2137.457636647841" y="304.0">pemesanantiketpesawat.data.SetKota</node>
+    <node x="4419.0711409170435" y="1934.0">pemesanantiketpesawat.data.Header</node>
+    <node x="5726.0711409170435" y="1911.0">pemesanantiketpesawat.datahotel.LoadingHotelSatu</node>
+    <node x="1294.862110898218" y="1129.5">pemesanantiketpesawat.data.SetHargaTiket</node>
+    <node x="2669.0599393236535" y="1900.0">pemesanantiketpesawat.datahotel.SetDaftarHotel</node>
+    <node x="6023.348167944071" y="1911.0">pemesanantiketpesawat.datahotel.LoadingHotel</node>
+    <node x="2149.903777564885" y="0.0">pemesanantiketpesawat.data.PilihKota</node>
+    <node x="3198.732351754745" y="2354.0">pemesanantiketpesawat.AppPemesananPesawat</node>
+    <node x="3445.9711501613547" y="1911.0">pemesanantiketpesawat.data.Progress</node>
+    <node x="3545.729791078398" y="782.5">pemesanantiketpesawat.datahotel.SetHargaHotel</node>
+    <node x="1714.862110898218" y="1174.0">pemesanantiketpesawat.data.SetKelas</node>
+    <node x="4589.278689323653" y="695.0">pemesanantiketpesawat.datahotel.CheckInOut</node>
+    <node x="2920.125" y="499.0">pemesanantiketpesawat.datahotel.KotaHotel</node>
+    <node x="4548.0711409170435" y="1790.0">pemesanantiketpesawat.datahotel.CetakTiketHotel</node>
+    <node x="3580.633640917044" y="1488.0">pemesanantiketpesawat.datahotel.NamaHotel</node>
+    <node x="840.125" y="1889.0">pemesanantiketpesawat.data.Transfer</node>
+    <node x="5542.0711409170435" y="1911.0">pemesanantiketpesawat.data.Loading</node>
+    <node x="3007.0599393236535" y="1911.0">pemesanantiketpesawat.datahotel.LoadingHotelDua</node>
+    <node x="5301.0711409170435" y="1889.0">pemesanantiketpesawat.datahotel.SetelahTfHotel</node>
+    <node x="5061.0711409170435" y="1889.0">pemesanantiketpesawat.data.SetelahTf</node>
+    <node x="103.8125" y="1878.0">pemesanantiketpesawat.data.CetakTiket</node>
+    <node x="4452.625" y="1488.5">pemesanantiketpesawat.datahotel.TransferHotel</node>
+    <node x="1180.654474250377" y="782.5">pemesanantiketpesawat.data.PilihKodePenerbangan</node>
+    <node x="2632.457636647841" y="1455.5">pemesanantiketpesawat.datahotel.DaftarHotel</node>
+    <node x="24.25" y="1097.0">pemesanantiketpesawat.data.Penumpang</node>
+    <node x="1780.4999999999998" y="783.0">pemesanantiketpesawat.data.PilihKelas</node>
+    <node x="3943.979791078398" y="1119.0">pemesanantiketpesawat.datahotel.TamuHotel</node>
+    <node x="411.625" y="1499.0">pemesanantiketpesawat.data.NamaMaskapai</node>
+    <node x="3674.8125" y="1934.0">pemesanantiketpesawat.datahotel.HeaderHotel</node>
+    <node x="2385.457636647841" y="1423.0">pemesanantiketpesawat.data.DaftarPilihanTiket</node>
+    <node x="1181.7499999999998" y="1878.0">pemesanantiketpesawat.data.SummaryOrder</node>
+    <node x="3845.8125" y="1856.0">pemesanantiketpesawat.datahotel.SummaryOrderHotel</node>
+    <node x="4803.028689323653" y="1488.5">pemesanantiketpesawat.datahotel.IdTiketHotel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.PilihKodePenerbangan" relationship="CREATE">
+      <point x="-72.3243243243246" y="-38.5" />
+      <point x="3237.9080274304206" y="2273.0" />
+      <point x="1171.25" y="2273.0" />
+      <point x="1171.2499999999998" y="1066.0" />
+      <point x="1355.1016059903197" y="1066.0" />
+      <point x="1355.1016059903197" y="1056.0" />
+      <point x="1356.154474250377" y="1056.0" />
+      <point x="58.5" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SetDaftarPilihanTiket" target="pemesanantiketpesawat.data.PilihKelas" relationship="DEPENDENCY">
+      <point x="-125.0" y="-72.0" />
+      <point x="2118.446140917044" y="1759.0" />
+      <point x="2023.0409699811742" y="1759.0" />
+      <point x="2023.0409699811742" y="1066.0" />
+      <point x="1978.154474250377" y="1066.0" />
+      <point x="1978.154474250377" y="1056.0" />
+      <point x="1940.2499999999998" y="1056.0" />
+      <point x="53.25" y="72.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SummaryOrder" target="pemesanantiketpesawat.data.NamaMaskapai" relationship="DEPENDENCY">
+      <point x="-243.25" y="-83.0" />
+      <point x="1216.4999999999998" y="1769.0" />
+      <point x="583.125" y="1769.0" />
+      <point x="583.125" y="1749.0" />
+      <point x="499.875" y="1749.0" />
+      <point x="-88.25" y="61.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SetHargaTiket" target="pemesanantiketpesawat.data.PilihKelas" relationship="TO_ONE">
+      <point x="48.5" y="-94.5" />
+      <point x="1537.362110898218" y="1076.0" />
+      <point x="1847.6016059903197" y="1076.0" />
+      <point x="1847.6016059903197" y="1056.0" />
+      <point x="1833.7499999999998" y="1056.0" />
+      <point x="-53.25" y="72.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.CetakTiket" target="pemesanantiketpesawat.data.IdTicket" relationship="TO_ONE">
+      <point x="-134.375" y="-83.0" />
+      <point x="184.4375" y="1769.0" />
+      <point x="196.5" y="1769.0" />
+      <point x="62.0" y="72.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.IdTicket" target="pemesanantiketpesawat.data.Penumpang" relationship="TO_ONE">
+      <point x="62.0" y="-72.0" />
+      <point x="196.5" y="1392.0" />
+      <point x="280.0" y="1392.0" />
+      <point x="280.0" y="1382.0" />
+      <point x="252.25" y="1382.0" />
+      <point x="76.0" y="127.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.TamuHotel" target="pemesanantiketpesawat.datahotel.CheckInOut" relationship="DEPENDENCY">
+      <point x="114.0" y="-105.0" />
+      <point x="4209.979791078398" y="1046.0" />
+      <point x="4789.528689323653" y="1046.0" />
+      <point x="4789.528689323653" y="1036.0" />
+      <point x="4796.278689323653" y="1036.0" />
+      <point x="69.0" y="160.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.datahotel.HeaderHotel" relationship="CREATE">
+      <point x="24.1081081081079" y="-38.5" />
+      <point x="3334.340459862853" y="2193.0" />
+      <point x="3750.3125" y="2193.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.DaftarPilihanTiket" relationship="CREATE">
+      <point x="-36.162162162162076" y="-38.5" />
+      <point x="3274.070189592583" y="2213.0" />
+      <point x="2505.903777564885" y="2213.0" />
+      <point x="2505.903777564885" y="1759.0" />
+      <point x="2555.707636647841" y="1759.0" />
+      <point x="56.75" y="137.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.CetakTiketHotel" target="pemesanantiketpesawat.datahotel.CheckInOut" relationship="DEPENDENCY">
+      <point x="215.6875" y="-171.0" />
+      <point x="5010.2586409170435" y="1769.0" />
+      <point x="5378.625" y="1769.0" />
+      <point x="5378.625" y="1046.0" />
+      <point x="4789.528689323653" y="1046.0" />
+      <point x="4789.528689323653" y="1036.0" />
+      <point x="4796.278689323653" y="1036.0" />
+      <point x="69.0" y="160.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.NamaHotel" target="pemesanantiketpesawat.datahotel.PilihHotel" relationship="DEPENDENCY">
+      <point x="103.5" y="-72.5" />
+      <point x="3822.133640917044" y="1402.0" />
+      <point x="3871.229791078398" y="1402.0" />
+      <point x="3871.229791078398" y="664.0" />
+      <point x="4066.7836501613547" y="664.0" />
+      <point x="4066.7836501613547" y="654.0" />
+      <point x="4048.2836501613547" y="654.0" />
+      <point x="58.5" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SetDaftarPilihanTiket" target="pemesanantiketpesawat.data.PilihKota" relationship="DEPENDENCY">
+      <point x="41.666666666666515" y="-72.0" />
+      <point x="2285.1128075837105" y="1759.0" />
+      <point x="2374.957636647841" y="1759.0" />
+      <point x="2375.3099393236535" y="274.0" />
+      <point x="2304.403777564885" y="274.0" />
+      <point x="51.5" y="127.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.datahotel.PilihHotel" relationship="CREATE">
+      <point x="96.4324324324325" y="-38.5" />
+      <point x="3406.6647841871777" y="2313.0" />
+      <point x="5975.334654430558" y="2313.0" />
+      <point x="5975.334654430558" y="664.0" />
+      <point x="4066.7836501613547" y="664.0" />
+      <point x="4066.7836501613547" y="654.0" />
+      <point x="4048.2836501613547" y="654.0" />
+      <point x="58.5" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.datahotel.CheckInOut" relationship="CREATE">
+      <point x="90.40540540540542" y="-38.5" />
+      <point x="3400.6377571601506" y="2303.0" />
+      <point x="5932.5711409170435" y="2303.0" />
+      <point x="5932.5711409170435" y="1046.0" />
+      <point x="4789.528689323653" y="1046.0" />
+      <point x="4789.528689323653" y="1036.0" />
+      <point x="4796.278689323653" y="1036.0" />
+      <point x="69.0" y="160.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.IdTicket" relationship="CREATE">
+      <point x="-102.4594594594596" y="-38.5" />
+      <point x="3207.7728922952856" y="2323.0" />
+      <point x="93.3125" y="2323.0" />
+      <point x="93.3125" y="1759.0" />
+      <point x="72.5" y="1759.0" />
+      <point x="-62.0" y="72.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.CetakTiketHotel" target="pemesanantiketpesawat.datahotel.IdTiketHotel" relationship="TO_ONE">
+      <point x="30.8125" y="-171.0" />
+      <point x="4825.3836409170435" y="1739.0" />
+      <point x="5015.278689323653" y="1739.0" />
+      <point x="70.75" y="72.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SetKelas" target="pemesanantiketpesawat.data.PilihKelas" relationship="DEPENDENCY">
+      <point x="62.0" y="-50.0" />
+      <point x="1900.862110898218" y="1066.0" />
+      <point x="1978.154474250377" y="1066.0" />
+      <point x="1978.154474250377" y="1056.0" />
+      <point x="1940.2499999999998" y="1056.0" />
+      <point x="53.25" y="72.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.datahotel.SetelahTfHotel" relationship="CREATE">
+      <point x="66.29729729729752" y="-38.5" />
+      <point x="3376.5296490520427" y="2263.0" />
+      <point x="5411.0711409170435" y="2263.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.datahotel.LoadingHotelSatu" relationship="CREATE">
+      <point x="84.37837837837833" y="-38.5" />
+      <point x="3394.6107301331235" y="2293.0" />
+      <point x="5824.0711409170435" y="2293.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.PilihKota" relationship="CREATE">
+      <point x="102.4594594594596" y="-38.5" />
+      <point x="3412.691811214205" y="2323.0" />
+      <point x="6012.848167944071" y="2323.0" />
+      <point x="6012.848167944071" y="284.0" />
+      <point x="2375.3099393236535" y="284.0" />
+      <point x="2375.3099393236535" y="274.0" />
+      <point x="2304.403777564885" y="274.0" />
+      <point x="51.5" y="127.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SummaryOrder" target="pemesanantiketpesawat.data.PilihKodePenerbangan" relationship="TO_ONE">
+      <point x="-104.25" y="-83.0" />
+      <point x="1355.4999999999998" y="1749.0" />
+      <point x="1267.154474250377" y="1749.0" />
+      <point x="1267.154474250377" y="1056.0" />
+      <point x="1239.154474250377" y="1056.0" />
+      <point x="-58.5" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.Transfer" target="pemesanantiketpesawat.data.TotalHargaTiket" relationship="TO_ONE">
+      <point x="79.5" y="-72.0" />
+      <point x="1078.625" y="1749.0" />
+      <point x="1038.875" y="1749.0" />
+      <point x="84.75" y="116.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.SetKelas" relationship="CREATE">
+      <point x="-54.24324324324334" y="-38.5" />
+      <point x="3255.989108511502" y="2243.0" />
+      <point x="1838.862110898218" y="2243.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.CetakTiketHotel" target="pemesanantiketpesawat.datahotel.TamuHotel" relationship="TO_ONE">
+      <point x="-30.8125" y="-171.0" />
+      <point x="4763.7586409170435" y="1769.0" />
+      <point x="4792.528689323653" y="1769.0" />
+      <point x="4792.528689323653" y="1402.0" />
+      <point x="4684.0711409170435" y="1402.0" />
+      <point x="4684.0711409170435" y="1382.0" />
+      <point x="4019.979791078398" y="1382.0" />
+      <point x="-76.0" y="105.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.CetakTiket" target="pemesanantiketpesawat.data.NamaMaskapai" relationship="DEPENDENCY">
+      <point x="134.375" y="-83.0" />
+      <point x="453.1875" y="1769.0" />
+      <point x="583.125" y="1769.0" />
+      <point x="583.125" y="1749.0" />
+      <point x="499.875" y="1749.0" />
+      <point x="-88.25" y="61.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SetHargaTiket" target="pemesanantiketpesawat.data.PilihKodePenerbangan" relationship="TO_ONE">
+      <point x="-145.5" y="-94.5" />
+      <point x="1343.362110898218" y="1076.0" />
+      <point x="1267.154474250377" y="1076.0" />
+      <point x="1267.154474250377" y="1056.0" />
+      <point x="1239.154474250377" y="1056.0" />
+      <point x="-58.5" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SetDaftarPilihanTiket" target="pemesanantiketpesawat.data.DaftarPilihanTiket" relationship="DEPENDENCY">
+      <point x="208.33333333333348" y="-72.0" />
+      <point x="2451.7794742503775" y="1769.0" />
+      <point x="2505.903777564885" y="1769.0" />
+      <point x="2505.903777564885" y="1759.0" />
+      <point x="2555.707636647841" y="1759.0" />
+      <point x="56.75" y="137.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.CetakTiket" target="pemesanantiketpesawat.data.SetKota" relationship="TO_ONE">
+      <point x="26.875" y="-83.0" />
+      <point x="345.6875" y="1769.0" />
+      <point x="338.75" y="1769.0" />
+      <point x="338.75" y="467.0" />
+      <point x="1687.154474250377" y="467.0" />
+      <point x="1687.154474250377" y="447.0" />
+      <point x="2194.207636647841" y="447.0" />
+      <point x="-56.75" y="61.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.TamuHotel" target="pemesanantiketpesawat.datahotel.SetHargaHotel" relationship="TO_ONE">
+      <point x="-38.0" y="-105.0" />
+      <point x="4057.979791078398" y="1066.0" />
+      <point x="3773.729791078398" y="1066.0" />
+      <point x="76.0" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SetKota" target="pemesanantiketpesawat.data.PilihKota" relationship="TO_ONE">
+      <point x="-56.75" y="-61.0" />
+      <point x="2194.207636647841" y="284.0" />
+      <point x="2126.957636647841" y="284.0" />
+      <point x="2126.957636647841" y="274.0" />
+      <point x="2201.403777564885" y="274.0" />
+      <point x="-51.5" y="127.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.SummaryOrderHotel" target="pemesanantiketpesawat.datahotel.SetHargaHotel" relationship="TO_ONE">
+      <point x="-160.625" y="-105.0" />
+      <point x="3942.1875" y="1749.0" />
+      <point x="3467.229791078398" y="1749.0" />
+      <point x="3467.229791078398" y="1066.0" />
+      <point x="3773.729791078398" y="1066.0" />
+      <point x="76.0" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.SetelahTf" relationship="CREATE">
+      <point x="60.27027027027043" y="-38.5" />
+      <point x="3370.5026220250156" y="2253.0" />
+      <point x="5171.0711409170435" y="2253.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.TamuHotel" target="pemesanantiketpesawat.datahotel.CheckInOut" relationship="TO_ONE">
+      <point x="38.0" y="-105.0" />
+      <point x="4133.979791078398" y="1056.0" />
+      <point x="4270.684939323653" y="1056.0" />
+      <point x="4270.684939323653" y="1036.0" />
+      <point x="4658.278689323653" y="1036.0" />
+      <point x="-69.0" y="160.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.CetakTiket" target="pemesanantiketpesawat.data.IdTicket" relationship="DEPENDENCY">
+      <point x="-188.125" y="-83.0" />
+      <point x="130.6875" y="1769.0" />
+      <point x="93.3125" y="1769.0" />
+      <point x="93.3125" y="1759.0" />
+      <point x="72.5" y="1759.0" />
+      <point x="-62.0" y="72.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.datahotel.SetDaftarHotel" relationship="CREATE">
+      <point x="-24.108108108108354" y="-38.5" />
+      <point x="3286.124243646637" y="2193.0" />
+      <point x="2828.0599393236535" y="2193.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.datahotel.TamuHotel" relationship="CREATE">
+      <point x="72.32432432432415" y="-38.5" />
+      <point x="3382.5566760790693" y="2273.0" />
+      <point x="5531.5711409170435" y="2273.0" />
+      <point x="5531.5711409170435" y="1392.0" />
+      <point x="5015.278689323653" y="1392.0" />
+      <point x="5015.278689323653" y="1372.0" />
+      <point x="4171.979791078398" y="1372.0" />
+      <point x="76.0" y="105.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.IdTiketHotel" target="pemesanantiketpesawat.datahotel.TamuHotel" relationship="TO_ONE">
+      <point x="-70.75" y="-72.0" />
+      <point x="4873.778689323653" y="1402.0" />
+      <point x="4684.0711409170435" y="1402.0" />
+      <point x="4684.0711409170435" y="1382.0" />
+      <point x="4019.979791078398" y="1382.0" />
+      <point x="-76.0" y="105.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.SummaryOrderHotel" target="pemesanantiketpesawat.datahotel.TamuHotel" relationship="TO_ONE">
+      <point x="160.625" y="-105.0" />
+      <point x="4263.4375" y="1749.0" />
+      <point x="4294.419851754745" y="1749.0" />
+      <point x="4294.419851754745" y="1402.0" />
+      <point x="4684.0711409170435" y="1402.0" />
+      <point x="4684.0711409170435" y="1382.0" />
+      <point x="4019.979791078398" y="1382.0" />
+      <point x="-76.0" y="105.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.NamaHotel" target="pemesanantiketpesawat.datahotel.KotaHotel" relationship="DEPENDENCY">
+      <point x="-34.5" y="-72.5" />
+      <point x="3684.133640917044" y="1392.0" />
+      <point x="3535.229791078398" y="1392.0" />
+      <point x="3535.229791078398" y="664.0" />
+      <point x="3148.696140917044" y="664.0" />
+      <point x="3148.696140917044" y="654.0" />
+      <point x="3058.875" y="654.0" />
+      <point x="46.25" y="61.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SetHargaTiket" target="pemesanantiketpesawat.data.PilihKelas" relationship="DEPENDENCY">
+      <point x="145.5" y="-94.5" />
+      <point x="1634.362110898218" y="1066.0" />
+      <point x="1978.154474250377" y="1066.0" />
+      <point x="1978.154474250377" y="1056.0" />
+      <point x="1940.2499999999998" y="1056.0" />
+      <point x="53.25" y="72.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.SetHargaHotel" target="pemesanantiketpesawat.datahotel.KotaHotel" relationship="TO_ONE">
+      <point x="-114.0" y="-72.5" />
+      <point x="3583.729791078398" y="674.0" />
+      <point x="2844.25" y="674.0" />
+      <point x="2844.25" y="654.0" />
+      <point x="2966.375" y="654.0" />
+      <point x="-46.25" y="61.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.PilihKelas" relationship="CREATE">
+      <point x="-48.21621621621625" y="-38.5" />
+      <point x="3262.016135538529" y="2233.0" />
+      <point x="1973.362110898218" y="2233.0" />
+      <point x="1973.362110898218" y="1066.0" />
+      <point x="1978.154474250377" y="1066.0" />
+      <point x="1978.154474250377" y="1056.0" />
+      <point x="1940.2499999999998" y="1056.0" />
+      <point x="53.25" y="72.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SummaryOrder" target="pemesanantiketpesawat.data.PilihKodePenerbangan" relationship="DEPENDENCY">
+      <point x="-34.75" y="-83.0" />
+      <point x="1424.9999999999998" y="1739.0" />
+      <point x="1284.362110898218" y="1739.0" />
+      <point x="1284.362110898218" y="1066.0" />
+      <point x="1355.1016059903197" y="1066.0" />
+      <point x="1355.1016059903197" y="1056.0" />
+      <point x="1356.154474250377" y="1056.0" />
+      <point x="58.5" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.CetakTiketHotel" target="pemesanantiketpesawat.datahotel.TamuHotel" relationship="DEPENDENCY">
+      <point x="92.4375" y="-171.0" />
+      <point x="4887.0086409170435" y="1749.0" />
+      <point x="5356.625" y="1749.0" />
+      <point x="5356.625" y="1392.0" />
+      <point x="5015.278689323653" y="1392.0" />
+      <point x="5015.278689323653" y="1372.0" />
+      <point x="4171.979791078398" y="1372.0" />
+      <point x="76.0" y="105.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SetDaftarPilihanTiket" target="pemesanantiketpesawat.data.DaftarPilihanTiket" relationship="TO_ONE">
+      <point x="125.0" y="-72.0" />
+      <point x="2368.446140917044" y="1769.0" />
+      <point x="2442.207636647841" y="1769.0" />
+      <point x="-56.75" y="137.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.SetDaftarHotel" target="pemesanantiketpesawat.datahotel.KotaHotel" relationship="TO_ONE">
+      <point x="39.75" y="-61.0" />
+      <point x="2867.8099393236535" y="1769.0" />
+      <point x="2897.957636647841" y="1769.0" />
+      <point x="2897.957636647841" y="674.0" />
+      <point x="2844.25" y="674.0" />
+      <point x="2844.25" y="654.0" />
+      <point x="2966.375" y="654.0" />
+      <point x="-46.25" y="61.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.datahotel.SetHargaHotel" relationship="CREATE">
+      <point x="6.0270270270270885" y="-38.5" />
+      <point x="3316.2593787817723" y="2163.0" />
+      <point x="3422.542291078398" y="2163.0" />
+      <point x="3422.542291078398" y="1076.0" />
+      <point x="3456.229791078398" y="1076.0" />
+      <point x="3456.229791078398" y="1056.0" />
+      <point x="3621.729791078398" y="1056.0" />
+      <point x="-76.0" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.TotalHargaTiket" relationship="CREATE">
+      <point x="-84.37837837837833" y="-38.5" />
+      <point x="3225.853973376367" y="2293.0" />
+      <point x="829.625" y="2293.0" />
+      <point x="829.625" y="1739.0" />
+      <point x="869.375" y="1739.0" />
+      <point x="-84.75" y="116.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.SetDaftarPilihanTiket" relationship="CREATE">
+      <point x="-42.189189189189165" y="-38.5" />
+      <point x="3268.043162565556" y="2223.0" />
+      <point x="2243.446140917044" y="2223.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.SetDaftarHotel" target="pemesanantiketpesawat.datahotel.DaftarHotel" relationship="DEPENDENCY">
+      <point x="-119.25" y="-61.0" />
+      <point x="2708.8099393236535" y="1769.0" />
+      <point x="2658.5599393236535" y="1769.0" />
+      <point x="2658.5599393236535" y="1759.0" />
+      <point x="2696.207636647841" y="1759.0" />
+      <point x="-63.75" y="105.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.SummaryOrderHotel" target="pemesanantiketpesawat.datahotel.SetHargaHotel" relationship="DEPENDENCY">
+      <point x="-224.875" y="-105.0" />
+      <point x="3877.9375" y="1759.0" />
+      <point x="3456.229791078398" y="1759.0" />
+      <point x="3456.229791078398" y="1056.0" />
+      <point x="3621.729791078398" y="1056.0" />
+      <point x="-76.0" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.SummaryOrderHotel" target="pemesanantiketpesawat.datahotel.NamaHotel" relationship="DEPENDENCY">
+      <point x="32.125" y="-105.0" />
+      <point x="4134.9375" y="1769.0" />
+      <point x="4268.979791078398" y="1769.0" />
+      <point x="4268.979791078398" y="1729.0" />
+      <point x="3649.633640917044" y="1729.0" />
+      <point x="-69.0" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.Loading" relationship="CREATE">
+      <point x="78.35135135135124" y="-38.5" />
+      <point x="3388.5837031060964" y="2283.0" />
+      <point x="5624.0711409170435" y="2283.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.Transfer" target="pemesanantiketpesawat.data.TotalHargaTiket" relationship="DEPENDENCY">
+      <point x="-79.5" y="-72.0" />
+      <point x="919.625" y="1749.0" />
+      <point x="829.625" y="1749.0" />
+      <point x="829.625" y="1739.0" />
+      <point x="869.375" y="1739.0" />
+      <point x="-84.75" y="116.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.CetakTiketHotel" target="pemesanantiketpesawat.datahotel.IdTiketHotel" relationship="DEPENDENCY">
+      <point x="-92.4375" y="-171.0" />
+      <point x="4702.1336409170435" y="1749.0" />
+      <point x="4656.625" y="1749.0" />
+      <point x="4656.625" y="1729.0" />
+      <point x="4873.778689323653" y="1729.0" />
+      <point x="-70.75" y="72.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.TotalHargaTiket" target="pemesanantiketpesawat.data.SetHargaTiket" relationship="DEPENDENCY">
+      <point x="127.125" y="-116.0" />
+      <point x="1081.25" y="1402.0" />
+      <point x="1495.2499999999998" y="1402.0" />
+      <point x="1495.2499999999998" y="1392.0" />
+      <point x="1585.862110898218" y="1392.0" />
+      <point x="97.0" y="94.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.IdTiketHotel" target="pemesanantiketpesawat.datahotel.TamuHotel" relationship="DEPENDENCY">
+      <point x="70.75" y="-72.0" />
+      <point x="5015.278689323653" y="1372.0" />
+      <point x="4171.979791078398" y="1372.0" />
+      <point x="76.0" y="105.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.datahotel.TransferHotel" relationship="CREATE">
+      <point x="36.162162162162076" y="-38.5" />
+      <point x="3346.3945139169073" y="2213.0" />
+      <point x="4408.5711409170435" y="2213.0" />
+      <point x="4408.5711409170435" y="1739.0" />
+      <point x="4587.125" y="1739.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.CetakTiket" target="pemesanantiketpesawat.data.SetKota" relationship="DEPENDENCY">
+      <point x="80.625" y="-83.0" />
+      <point x="399.4375" y="1759.0" />
+      <point x="349.75" y="1759.0" />
+      <point x="349.75" y="457.0" />
+      <point x="2307.707636647841" y="457.0" />
+      <point x="56.75" y="61.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.Progress" relationship="CREATE">
+      <point x="12.054054054054177" y="-38.5" />
+      <point x="3322.2864058087994" y="2173.0" />
+      <point x="3527.9711501613547" y="2173.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.TotalHargaTiket" target="pemesanantiketpesawat.data.Penumpang" relationship="DEPENDENCY">
+      <point x="-127.125" y="-116.0" />
+      <point x="827.0" y="1402.0" />
+      <point x="170.75" y="1402.0" />
+      <point x="170.75" y="1392.0" />
+      <point x="100.25" y="1392.0" />
+      <point x="-76.0" y="127.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.datahotel.LoadingHotelDua" relationship="CREATE">
+      <point x="-18.081081081081265" y="-38.5" />
+      <point x="3292.151270673664" y="2183.0" />
+      <point x="3100.5599393236535" y="2183.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.datahotel.NamaHotel" relationship="CREATE">
+      <point x="18.081081081081265" y="-38.5" />
+      <point x="3328.3134328358265" y="2183.0" />
+      <point x="3664.3125" y="2183.0" />
+      <point x="3664.3125" y="1769.0" />
+      <point x="4268.979791078398" y="1769.0" />
+      <point x="4268.979791078398" y="1729.0" />
+      <point x="3649.633640917044" y="1729.0" />
+      <point x="-69.0" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.SummaryOrderHotel" target="pemesanantiketpesawat.datahotel.TamuHotel" relationship="DEPENDENCY">
+      <point x="224.875" y="-105.0" />
+      <point x="4327.6875" y="1749.0" />
+      <point x="4305.419851754745" y="1749.0" />
+      <point x="4305.419851754745" y="1392.0" />
+      <point x="5015.278689323653" y="1392.0" />
+      <point x="5015.278689323653" y="1372.0" />
+      <point x="4171.979791078398" y="1372.0" />
+      <point x="76.0" y="105.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.SetHargaHotel" target="pemesanantiketpesawat.datahotel.PilihHotel" relationship="TO_ONE">
+      <point x="38.0" y="-72.5" />
+      <point x="3735.729791078398" y="674.0" />
+      <point x="3797.979791078398" y="674.0" />
+      <point x="3797.979791078398" y="654.0" />
+      <point x="3931.2836501613547" y="654.0" />
+      <point x="-58.5" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.datahotel.IdTiketHotel" relationship="CREATE">
+      <point x="48.21621621621625" y="-38.5" />
+      <point x="3358.4485679709614" y="2233.0" />
+      <point x="4537.5711409170435" y="2233.0" />
+      <point x="4537.5711409170435" y="1749.0" />
+      <point x="4656.625" y="1749.0" />
+      <point x="4656.625" y="1729.0" />
+      <point x="4873.778689323653" y="1729.0" />
+      <point x="-70.75" y="72.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.datahotel.SummaryOrderHotel" relationship="CREATE">
+      <point x="30.135135135134988" y="-38.5" />
+      <point x="3340.36748688988" y="2203.0" />
+      <point x="4102.8125" y="2203.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.NamaHotel" target="pemesanantiketpesawat.datahotel.KotaHotel" relationship="TO_ONE">
+      <point x="-103.5" y="-72.5" />
+      <point x="3615.133640917044" y="1402.0" />
+      <point x="3478.229791078398" y="1402.0" />
+      <point x="3478.229791078398" y="674.0" />
+      <point x="2844.25" y="674.0" />
+      <point x="2844.25" y="654.0" />
+      <point x="2966.375" y="654.0" />
+      <point x="-46.25" y="61.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.datahotel.DaftarHotel" relationship="CREATE">
+      <point x="-30.135135135134988" y="-38.5" />
+      <point x="3280.09721661961" y="2203.0" />
+      <point x="2658.5599393236535" y="2203.0" />
+      <point x="2658.5599393236535" y="1759.0" />
+      <point x="2696.207636647841" y="1759.0" />
+      <point x="-63.75" y="105.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.CetakTiketHotel" target="pemesanantiketpesawat.datahotel.NamaHotel" relationship="DEPENDENCY">
+      <point x="-215.6875" y="-171.0" />
+      <point x="4578.8836409170435" y="1769.0" />
+      <point x="4268.979791078398" y="1769.0" />
+      <point x="4268.979791078398" y="1729.0" />
+      <point x="3649.633640917044" y="1729.0" />
+      <point x="-69.0" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SetDaftarPilihanTiket" target="pemesanantiketpesawat.data.PilihKota" relationship="TO_ONE">
+      <point x="-41.666666666666515" y="-72.0" />
+      <point x="2201.7794742503775" y="1769.0" />
+      <point x="2126.957636647841" y="1769.0" />
+      <point x="2126.957636647841" y="274.0" />
+      <point x="2201.403777564885" y="274.0" />
+      <point x="-51.5" y="127.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.SetHargaHotel" target="pemesanantiketpesawat.datahotel.KotaHotel" relationship="DEPENDENCY">
+      <point x="-38.0" y="-72.5" />
+      <point x="3659.729791078398" y="664.0" />
+      <point x="3148.696140917044" y="664.0" />
+      <point x="3148.696140917044" y="654.0" />
+      <point x="3058.875" y="654.0" />
+      <point x="46.25" y="61.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.datahotel.KotaHotel" relationship="CREATE">
+      <point x="-12.054054054054177" y="-38.5" />
+      <point x="3298.178297700691" y="2173.0" />
+      <point x="3204.5599393236535" y="2173.0" />
+      <point x="3204.5599393236535" y="664.0" />
+      <point x="3148.696140917044" y="664.0" />
+      <point x="3148.696140917044" y="654.0" />
+      <point x="3058.875" y="654.0" />
+      <point x="46.25" y="61.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.SummaryOrder" relationship="CREATE">
+      <point x="-66.29729729729752" y="-38.5" />
+      <point x="3243.9350544574477" y="2263.0" />
+      <point x="1459.7499999999998" y="2263.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.SetHargaTiket" relationship="CREATE">
+      <point x="-60.27027027027043" y="-38.5" />
+      <point x="3249.9620814844748" y="2253.0" />
+      <point x="1774.9864864864865" y="2253.0" />
+      <point x="1774.9864864864865" y="1402.0" />
+      <point x="1495.2499999999998" y="1402.0" />
+      <point x="1495.2499999999998" y="1392.0" />
+      <point x="1585.862110898218" y="1392.0" />
+      <point x="97.0" y="94.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.SummaryOrderHotel" target="pemesanantiketpesawat.datahotel.CheckInOut" relationship="DEPENDENCY">
+      <point x="-32.125" y="-105.0" />
+      <point x="4070.6875" y="1739.0" />
+      <point x="4258.479791078398" y="1739.0" />
+      <point x="4258.479791078398" y="1046.0" />
+      <point x="4789.528689323653" y="1046.0" />
+      <point x="4789.528689323653" y="1036.0" />
+      <point x="4796.278689323653" y="1036.0" />
+      <point x="69.0" y="160.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SummaryOrder" target="pemesanantiketpesawat.data.SetKota" relationship="TO_ONE">
+      <point x="173.75" y="-83.0" />
+      <point x="1633.4999999999998" y="1769.0" />
+      <point x="1693.362110898218" y="1769.0" />
+      <point x="1693.362110898218" y="467.0" />
+      <point x="1687.154474250377" y="467.0" />
+      <point x="1687.154474250377" y="447.0" />
+      <point x="2194.207636647841" y="447.0" />
+      <point x="-56.75" y="61.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.Penumpang" relationship="CREATE">
+      <point x="-108.48648648648668" y="-38.5" />
+      <point x="3201.7458652682585" y="2333.0" />
+      <point x="0.0" y="2333.0" />
+      <point x="0.0" y="1402.0" />
+      <point x="170.75" y="1402.0" />
+      <point x="170.75" y="1392.0" />
+      <point x="100.25" y="1392.0" />
+      <point x="-76.0" y="127.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.SetKota" relationship="CREATE">
+      <point x="-6.0270270270270885" y="-38.5" />
+      <point x="3304.205324727718" y="2163.0" />
+      <point x="3237.542291078398" y="2163.0" />
+      <point x="3237.542291078398" y="457.0" />
+      <point x="2307.707636647841" y="457.0" />
+      <point x="56.75" y="61.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SetDaftarPilihanTiket" target="pemesanantiketpesawat.data.PilihKelas" relationship="TO_ONE">
+      <point x="-208.33333333333326" y="-72.0" />
+      <point x="2035.1128075837107" y="1769.0" />
+      <point x="2012.0409699811742" y="1769.0" />
+      <point x="2012.0409699811742" y="1076.0" />
+      <point x="1847.6016059903197" y="1076.0" />
+      <point x="1847.6016059903197" y="1056.0" />
+      <point x="1833.7499999999998" y="1056.0" />
+      <point x="-53.25" y="72.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.CetakTiket" relationship="CREATE">
+      <point x="-96.4324324324325" y="-38.5" />
+      <point x="3213.7999193223127" y="2313.0" />
+      <point x="318.8125" y="2313.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SummaryOrder" target="pemesanantiketpesawat.data.SetHargaTiket" relationship="TO_ONE">
+      <point x="34.75" y="-83.0" />
+      <point x="1494.4999999999998" y="1769.0" />
+      <point x="1484.2499999999998" y="1769.0" />
+      <point x="1484.2499999999998" y="1382.0" />
+      <point x="1391.862110898218" y="1382.0" />
+      <point x="-97.0" y="94.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.NamaMaskapai" target="pemesanantiketpesawat.data.PilihKodePenerbangan" relationship="DEPENDENCY">
+      <point x="88.25" y="-61.5" />
+      <point x="676.375" y="1382.0" />
+      <point x="593.625" y="1382.0" />
+      <point x="593.625" y="1066.0" />
+      <point x="1355.1016059903197" y="1066.0" />
+      <point x="1355.1016059903197" y="1056.0" />
+      <point x="1356.154474250377" y="1056.0" />
+      <point x="58.5" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.KotaHotel" target="pemesanantiketpesawat.data.SetKota" relationship="TO_ONE">
+      <point x="-46.25" y="-61.5" />
+      <point x="2966.375" y="467.0" />
+      <point x="1687.154474250377" y="467.0" />
+      <point x="1687.154474250377" y="447.0" />
+      <point x="2194.207636647841" y="447.0" />
+      <point x="-56.75" y="61.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.SummaryOrderHotel" target="pemesanantiketpesawat.datahotel.NamaHotel" relationship="TO_ONE">
+      <point x="96.375" y="-105.0" />
+      <point x="4199.1875" y="1759.0" />
+      <point x="4283.919851754745" y="1759.0" />
+      <point x="4283.919851754745" y="1719.0" />
+      <point x="3787.633640917044" y="1719.0" />
+      <point x="69.0" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.TransferHotel" target="pemesanantiketpesawat.datahotel.TamuHotel" relationship="DEPENDENCY">
+      <point x="67.25" y="-72.0" />
+      <point x="4654.375" y="1392.0" />
+      <point x="5015.278689323653" y="1392.0" />
+      <point x="5015.278689323653" y="1372.0" />
+      <point x="4171.979791078398" y="1372.0" />
+      <point x="76.0" y="105.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.SetDaftarHotel" target="pemesanantiketpesawat.datahotel.DaftarHotel" relationship="TO_ONE">
+      <point x="-39.75" y="-61.0" />
+      <point x="2788.3099393236535" y="1769.0" />
+      <point x="2823.707636647841" y="1769.0" />
+      <point x="63.75" y="105.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.CetakTiket" target="pemesanantiketpesawat.data.Penumpang" relationship="TO_ONE">
+      <point x="-26.875" y="-83.0" />
+      <point x="291.9375" y="1769.0" />
+      <point x="280.0" y="1769.0" />
+      <point x="280.0" y="1382.0" />
+      <point x="252.25" y="1382.0" />
+      <point x="76.0" y="127.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.DaftarHotel" target="pemesanantiketpesawat.datahotel.KotaHotel" relationship="TO_ONE">
+      <point x="-63.75" y="-105.0" />
+      <point x="2696.207636647841" y="1402.0" />
+      <point x="2702.3438382412314" y="1402.0" />
+      <point x="2702.3438382412314" y="674.0" />
+      <point x="2844.25" y="674.0" />
+      <point x="2844.25" y="654.0" />
+      <point x="2966.375" y="654.0" />
+      <point x="-46.25" y="61.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SummaryOrder" target="pemesanantiketpesawat.data.SetHargaTiket" relationship="DEPENDENCY">
+      <point x="104.25" y="-83.0" />
+      <point x="1563.9999999999998" y="1759.0" />
+      <point x="1495.2499999999998" y="1759.0" />
+      <point x="1495.2499999999998" y="1392.0" />
+      <point x="1585.862110898218" y="1392.0" />
+      <point x="97.0" y="94.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.SetHargaHotel" target="pemesanantiketpesawat.datahotel.PilihHotel" relationship="DEPENDENCY">
+      <point x="114.0" y="-72.5" />
+      <point x="3811.729791078398" y="664.0" />
+      <point x="4066.7836501613547" y="664.0" />
+      <point x="4066.7836501613547" y="654.0" />
+      <point x="4048.2836501613547" y="654.0" />
+      <point x="58.5" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.IdTicket" target="pemesanantiketpesawat.data.Penumpang" relationship="DEPENDENCY">
+      <point x="-62.0" y="-72.0" />
+      <point x="72.5" y="1402.0" />
+      <point x="170.75" y="1402.0" />
+      <point x="170.75" y="1392.0" />
+      <point x="100.25" y="1392.0" />
+      <point x="-76.0" y="127.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SetKelas" target="pemesanantiketpesawat.data.PilihKelas" relationship="TO_ONE">
+      <point x="-62.0" y="-50.0" />
+      <point x="1776.862110898218" y="1076.0" />
+      <point x="1847.6016059903197" y="1076.0" />
+      <point x="1847.6016059903197" y="1056.0" />
+      <point x="1833.7499999999998" y="1056.0" />
+      <point x="-53.25" y="72.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.Transfer" relationship="CREATE">
+      <point x="-78.35135135135124" y="-38.5" />
+      <point x="3231.881000403394" y="2283.0" />
+      <point x="999.125" y="2283.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.TotalHargaTiket" target="pemesanantiketpesawat.data.Penumpang" relationship="TO_ONE">
+      <point x="-42.375" y="-116.0" />
+      <point x="911.75" y="1392.0" />
+      <point x="280.0" y="1392.0" />
+      <point x="280.0" y="1382.0" />
+      <point x="252.25" y="1382.0" />
+      <point x="76.0" y="127.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SummaryOrder" target="pemesanantiketpesawat.data.NamaMaskapai" relationship="TO_ONE">
+      <point x="-173.75" y="-83.0" />
+      <point x="1285.9999999999998" y="1759.0" />
+      <point x="593.125" y="1759.0" />
+      <point x="593.125" y="1749.0" />
+      <point x="676.375" y="1749.0" />
+      <point x="88.25" y="61.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SummaryOrder" target="pemesanantiketpesawat.data.SetKota" relationship="DEPENDENCY">
+      <point x="243.25" y="-83.0" />
+      <point x="1702.9999999999998" y="1769.0" />
+      <point x="1704.362110898218" y="1769.0" />
+      <point x="1704.362110898218" y="457.0" />
+      <point x="2307.707636647841" y="457.0" />
+      <point x="56.75" y="61.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.NamaHotel" target="pemesanantiketpesawat.datahotel.PilihHotel" relationship="TO_ONE">
+      <point x="34.5" y="-72.5" />
+      <point x="3753.133640917044" y="1392.0" />
+      <point x="3860.229791078398" y="1392.0" />
+      <point x="3860.229791078398" y="674.0" />
+      <point x="3797.979791078398" y="674.0" />
+      <point x="3797.979791078398" y="654.0" />
+      <point x="3931.2836501613547" y="654.0" />
+      <point x="-58.5" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.LoadingTiket" relationship="CREATE">
+      <point x="0.0" y="-38.5" />
+      <point x="3310.232351754745" y="2153.0" />
+      <point x="3330.042291078398" y="2153.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.CetakTiketHotel" target="pemesanantiketpesawat.datahotel.CheckInOut" relationship="TO_ONE">
+      <point x="154.0625" y="-171.0" />
+      <point x="4948.6336409170435" y="1759.0" />
+      <point x="5367.625" y="1759.0" />
+      <point x="5367.625" y="1056.0" />
+      <point x="4270.684939323653" y="1056.0" />
+      <point x="4270.684939323653" y="1036.0" />
+      <point x="4658.278689323653" y="1036.0" />
+      <point x="-69.0" y="160.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.SetDaftarHotel" target="pemesanantiketpesawat.datahotel.KotaHotel" relationship="DEPENDENCY">
+      <point x="119.25" y="-61.0" />
+      <point x="2947.3099393236535" y="1769.0" />
+      <point x="2910.903777564885" y="1769.0" />
+      <point x="2910.903777564885" y="664.0" />
+      <point x="3148.696140917044" y="664.0" />
+      <point x="3148.696140917044" y="654.0" />
+      <point x="3058.875" y="654.0" />
+      <point x="46.25" y="61.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.Header" relationship="CREATE">
+      <point x="42.189189189189165" y="-38.5" />
+      <point x="3352.4215409439344" y="2223.0" />
+      <point x="4473.0711409170435" y="2223.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.NamaMaskapai" target="pemesanantiketpesawat.data.PilihKodePenerbangan" relationship="TO_ONE">
+      <point x="-88.25" y="-61.5" />
+      <point x="499.875" y="1382.0" />
+      <point x="582.625" y="1382.0" />
+      <point x="582.625" y="1076.0" />
+      <point x="1267.154474250377" y="1076.0" />
+      <point x="1267.154474250377" y="1056.0" />
+      <point x="1239.154474250377" y="1056.0" />
+      <point x="-58.5" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.CetakTiketHotel" target="pemesanantiketpesawat.datahotel.NamaHotel" relationship="TO_ONE">
+      <point x="-154.0625" y="-171.0" />
+      <point x="4640.5086409170435" y="1759.0" />
+      <point x="4283.919851754745" y="1759.0" />
+      <point x="4283.919851754745" y="1719.0" />
+      <point x="3787.633640917044" y="1719.0" />
+      <point x="69.0" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.TransferHotel" target="pemesanantiketpesawat.datahotel.TamuHotel" relationship="TO_ONE">
+      <point x="-67.25" y="-72.0" />
+      <point x="4519.875" y="1402.0" />
+      <point x="4684.0711409170435" y="1402.0" />
+      <point x="4684.0711409170435" y="1382.0" />
+      <point x="4019.979791078398" y="1382.0" />
+      <point x="-76.0" y="105.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.data.NamaMaskapai" relationship="CREATE">
+      <point x="-90.40540540540542" y="-38.5" />
+      <point x="3219.82694634934" y="2303.0" />
+      <point x="583.125" y="2303.0" />
+      <point x="583.125" y="1749.0" />
+      <point x="499.875" y="1749.0" />
+      <point x="-88.25" y="61.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.datahotel.CetakTiketHotel" relationship="CREATE">
+      <point x="54.24324324324334" y="-38.5" />
+      <point x="3364.4755949979885" y="2243.0" />
+      <point x="4794.5711409170435" y="2243.0" />
+      <point x="0.0" y="171.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.TotalHargaTiket" target="pemesanantiketpesawat.data.SetHargaTiket" relationship="TO_ONE">
+      <point x="42.375" y="-116.0" />
+      <point x="996.5" y="1392.0" />
+      <point x="1484.2499999999998" y="1392.0" />
+      <point x="1484.2499999999998" y="1382.0" />
+      <point x="1391.862110898218" y="1382.0" />
+      <point x="-97.0" y="94.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.TamuHotel" target="pemesanantiketpesawat.datahotel.SetHargaHotel" relationship="DEPENDENCY">
+      <point x="-114.0" y="-105.0" />
+      <point x="3981.979791078398" y="1076.0" />
+      <point x="3456.229791078398" y="1076.0" />
+      <point x="3456.229791078398" y="1056.0" />
+      <point x="3621.729791078398" y="1056.0" />
+      <point x="-76.0" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.AppPemesananPesawat" target="pemesanantiketpesawat.datahotel.LoadingHotel" relationship="CREATE">
+      <point x="108.48648648648668" y="-38.5" />
+      <point x="3418.718838241232" y="2333.0" />
+      <point x="6105.348167944071" y="2333.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.DaftarHotel" target="pemesanantiketpesawat.datahotel.KotaHotel" relationship="DEPENDENCY">
+      <point x="63.75" y="-105.0" />
+      <point x="2823.707636647841" y="1402.0" />
+      <point x="2713.3438382412314" y="1402.0" />
+      <point x="2713.3438382412314" y="664.0" />
+      <point x="3148.696140917044" y="664.0" />
+      <point x="3148.696140917044" y="654.0" />
+      <point x="3058.875" y="654.0" />
+      <point x="46.25" y="61.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.KotaHotel" target="pemesanantiketpesawat.data.SetKota" relationship="DEPENDENCY">
+      <point x="46.25" y="-61.5" />
+      <point x="3058.875" y="457.0" />
+      <point x="2307.707636647841" y="457.0" />
+      <point x="56.75" y="61.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.datahotel.SummaryOrderHotel" target="pemesanantiketpesawat.datahotel.CheckInOut" relationship="TO_ONE">
+      <point x="-96.375" y="-105.0" />
+      <point x="4006.4375" y="1739.0" />
+      <point x="3933.479791078398" y="1739.0" />
+      <point x="3933.479791078398" y="1056.0" />
+      <point x="4270.684939323653" y="1056.0" />
+      <point x="4270.684939323653" y="1036.0" />
+      <point x="4658.278689323653" y="1036.0" />
+      <point x="-69.0" y="160.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.CetakTiket" target="pemesanantiketpesawat.data.Penumpang" relationship="DEPENDENCY">
+      <point x="-80.625" y="-83.0" />
+      <point x="238.1875" y="1769.0" />
+      <point x="269.0" y="1769.0" />
+      <point x="269.0" y="1402.0" />
+      <point x="170.75" y="1402.0" />
+      <point x="170.75" y="1392.0" />
+      <point x="100.25" y="1392.0" />
+      <point x="-76.0" y="127.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SetHargaTiket" target="pemesanantiketpesawat.data.PilihKodePenerbangan" relationship="DEPENDENCY">
+      <point x="-48.5" y="-94.5" />
+      <point x="1440.362110898218" y="1066.0" />
+      <point x="1355.1016059903197" y="1066.0" />
+      <point x="1355.1016059903197" y="1056.0" />
+      <point x="1356.154474250377" y="1056.0" />
+      <point x="58.5" y="72.5" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.SetKota" target="pemesanantiketpesawat.data.PilihKota" relationship="DEPENDENCY">
+      <point x="56.75" y="-61.0" />
+      <point x="2307.707636647841" y="284.0" />
+      <point x="2375.3099393236535" y="284.0" />
+      <point x="2375.3099393236535" y="274.0" />
+      <point x="2304.403777564885" y="274.0" />
+      <point x="51.5" y="127.0" />
+    </edge>
+    <edge source="pemesanantiketpesawat.data.CetakTiket" target="pemesanantiketpesawat.data.NamaMaskapai" relationship="TO_ONE">
+      <point x="188.125" y="-83.0" />
+      <point x="506.9375" y="1759.0" />
+      <point x="593.125" y="1759.0" />
+      <point x="593.125" y="1749.0" />
+      <point x="676.375" y="1749.0" />
+      <point x="88.25" y="61.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="1400.0" y="940.0" />
+  <SelectedNodes>
+    <node>pemesanantiketpesawat.data.SummaryOrder</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
