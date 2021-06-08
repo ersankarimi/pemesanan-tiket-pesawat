@@ -1,8 +1,8 @@
-package pemesanantiketpesawat.data;
+package pemesanantiketpesawat.datahotel;
 
 import java.util.Scanner;
 
-public class SetelahTf {
+public class SetelahTfHotel {
 
     //variabel
     private Scanner sc = new Scanner(System.in);
@@ -13,7 +13,7 @@ public class SetelahTf {
     // constructor
 
 
-    public SetelahTf() {
+    public SetelahTfHotel() {
         prosesPembayaran();
         pengecekanKarakter();
     }
@@ -24,15 +24,18 @@ public class SetelahTf {
             System.out.println("Kami Sedang Memproses Tiket Anda");
             System.out.println(" ");
         } else {
+            System.out.println(" ");
             System.out.println("Selesaikan Pembayaran Untuk Proses Tiket!");
+            System.out.println("Untuk Proses Tiket Hotel Anda!");
             System.out.println(" ");
             prosesPembayaran();
         }
     }
 
     public void prosesPembayaran(){
-        System.out.print("Apakah Anda Sudah Menyelesaikan Pembayaran? Y/N : ");
+        System.out.print("Apakah Anda Menyelesaikan Pembayaran? Y/N : ");
         this.karakter = sc.next().charAt(0);
 
     }
 }
+
