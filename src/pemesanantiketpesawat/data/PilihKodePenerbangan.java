@@ -6,27 +6,24 @@ public class PilihKodePenerbangan {
 
     // variabel
     private final Scanner sc = new Scanner(System.in);
-    protected int pilKodePenerbangan;
-    protected int kodePenerbangan;
+    private int pilKodePenerbangan;
+    private int kodePenerbangan;
 
 
     // constructor
     public PilihKodePenerbangan(){
-
         pilihKodePenerbangan();
     }
 
+
+
     // method untuk meng-input kode penerbangan
     public void pilihKodePenerbangan(){
-        System.out.println(" ");
-
         // proses set kode penerbangan
         System.out.print("Pilih Kode Penerbangan yang Tersedia : ");
         this.pilKodePenerbangan = sc.nextInt();
         setKodePenerbangan(pilKodePenerbangan);
-
         System.out.println(" ");
-
     }
 
     // method setter dan getter

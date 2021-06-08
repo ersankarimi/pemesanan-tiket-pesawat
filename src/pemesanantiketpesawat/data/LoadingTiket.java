@@ -2,18 +2,18 @@ package pemesanantiketpesawat.data;
 
 import java.util.*;
 
-public class Progress {
+public class LoadingTiket {
     Thread t;
 
 
-    public Progress( ) {
+    public LoadingTiket( ) {
         processing();
         System.out.println(" ");
 
     }
 
     public void processing( ) {
-        System.out.print("Looking for All Available Flights---------");
+        System.out.print("We Are processing your ticket---------");
 
         for (int i = 0 ; i <= 100 ; i++) {
             if (i < 10) {

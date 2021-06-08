@@ -1,17 +1,17 @@
 package pemesanantiketpesawat.data;
 
-public class SetNamaMaskapai {
+public class NamaMaskapai {
 
     // variabel
     PilihKodePenerbangan namaMaskapaiPenerbangan = null;
     protected String namaMaskapai;
 
     // constructor
-    public SetNamaMaskapai(PilihKodePenerbangan namaMaskapai) {
+    public NamaMaskapai(PilihKodePenerbangan namaMaskapai) {
         this.namaMaskapaiPenerbangan = namaMaskapai;
 
         pengecekanNamaMaskapai();
-        getMaskapai();
+//        getMaskapai();
     }
 
 
@@ -23,9 +23,9 @@ public class SetNamaMaskapai {
         this.namaMaskapai = namaMaskapai;
     }
 
-    public void getMaskapai(){
-        System.out.println("Dengan Nama Maskapai Penerbangan : " + getNamaMaskapai());
-    }
+//    public void getMaskapai(){
+//        System.out.println("Dengan Nama Maskapai Penerbangan : " + getNamaMaskapai());
+//    }
 
     // method pengecekan
     public void pengecekanNamaMaskapai(){
@@ -41,6 +41,4 @@ public class SetNamaMaskapai {
             System.exit(0);
         }
     }
-
-
 }
