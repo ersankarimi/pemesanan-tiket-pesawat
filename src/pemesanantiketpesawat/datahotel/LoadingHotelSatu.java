@@ -1,19 +1,17 @@
-package pemesanantiketpesawat.data;
+package pemesanantiketpesawat.datahotel;
 
-import java.util.*;
-
-public class Progress {
+public class LoadingHotelSatu {
     Thread t;
 
 
-    public Progress( ) {
+    public LoadingHotelSatu() {
         processing();
         System.out.println(" ");
 
     }
 
     public void processing( ) {
-        System.out.print("Looking for All Available Flights---------");
+        System.out.print("Loading---------");
 
         for (int i = 0 ; i <= 100 ; i++) {
             if (i < 10) {

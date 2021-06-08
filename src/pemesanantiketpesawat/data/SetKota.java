@@ -8,51 +8,51 @@ public class SetKota {
 
 
     // constructor
-    public SetKota(PilihKota pilihKota) {
-        this.pilihKotaSetKota = pilihKota;
+    public SetKota(PilihKota pilihKotaSetKota) {
+        this.pilihKotaSetKota = pilihKotaSetKota;
 
-        if (pilihKota.pilKotaAsal == 1){
+        if (pilihKotaSetKota.pilKotaAsal == 1){
             setKotaAsal("Bandung");
-            if (pilihKota.pilKotaTujuan == 1){
+            if (pilihKotaSetKota.pilKotaTujuan == 1){
                 setKotaTujuan("Bandung");
-            } else if (pilihKota.pilKotaTujuan == 2){
+            } else if (pilihKotaSetKota.pilKotaTujuan == 2){
                 setKotaTujuan("Jakarta");
-            } else if (pilihKota.pilKotaTujuan == 3){
+            } else if (pilihKotaSetKota.pilKotaTujuan == 3){
                 setKotaTujuan("Medan");
-            } else if (pilihKota.pilKotaTujuan == 4){
+            } else if (pilihKotaSetKota.pilKotaTujuan == 4){
                 setKotaTujuan("Makassar");
             }
-        } else if (pilihKota.pilKotaAsal == 2){
+        } else if (pilihKotaSetKota.pilKotaAsal == 2){
             setKotaAsal("Jakarta");
-            if (pilihKota.pilKotaTujuan == 1){
+            if (pilihKotaSetKota.pilKotaTujuan == 1){
                 setKotaTujuan("Bandung");
-            } else if (pilihKota.pilKotaTujuan == 2){
+            } else if (pilihKotaSetKota.pilKotaTujuan == 2){
                 setKotaTujuan("Jakarta");
-            } else if (pilihKota.pilKotaTujuan == 3){
+            } else if (pilihKotaSetKota.pilKotaTujuan == 3){
                 setKotaTujuan("Medan");
-            } else if (pilihKota.pilKotaTujuan == 4){
+            } else if (pilihKotaSetKota.pilKotaTujuan == 4){
                 setKotaTujuan("Makassar");
             }
-        } else if (pilihKota.pilKotaAsal == 3){
+        } else if (pilihKotaSetKota.pilKotaAsal == 3){
             setKotaAsal("Medan");
-            if (pilihKota.pilKotaTujuan == 1){
+            if (pilihKotaSetKota.pilKotaTujuan == 1){
                 setKotaTujuan("Bandung");
-            } else if (pilihKota.pilKotaTujuan == 2){
+            } else if (pilihKotaSetKota.pilKotaTujuan == 2){
                 setKotaTujuan("Jakarta");
-            } else if (pilihKota.pilKotaTujuan == 3){
+            } else if (pilihKotaSetKota.pilKotaTujuan == 3){
                 setKotaTujuan("Medan");
-            } else if (pilihKota.pilKotaTujuan == 4){
+            } else if (pilihKotaSetKota.pilKotaTujuan == 4){
                 setKotaTujuan("Makassar");
             }
-        } else if (pilihKota.pilKotaAsal == 4){
+        } else if (pilihKotaSetKota.pilKotaAsal == 4){
             setKotaAsal("Makassar");
-            if (pilihKota.pilKotaTujuan == 1){
+            if (pilihKotaSetKota.pilKotaTujuan == 1){
                 setKotaTujuan("Bandung");
-            } else if (pilihKota.pilKotaTujuan == 2){
+            } else if (pilihKotaSetKota.pilKotaTujuan == 2){
                 setKotaTujuan("Jakarta");
-            } else if (pilihKota.pilKotaTujuan == 3){
+            } else if (pilihKotaSetKota.pilKotaTujuan == 3){
                 setKotaTujuan("Medan");
-            } else if (pilihKota.pilKotaTujuan == 4){
+            } else if (pilihKotaSetKota.pilKotaTujuan == 4){
                 setKotaTujuan("Makassar");
             }
         }

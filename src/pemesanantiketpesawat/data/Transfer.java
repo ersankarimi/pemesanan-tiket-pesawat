@@ -31,8 +31,8 @@ public class Transfer {
         }
 
         if (totalHargaTiketTransfer.totalHarga > 1000000){
-            System.out.println("Transfer sebanyak Rp " + totalHargaTiketTransfer.totalHarga +"jt");
-        } else System.out.println("Transfer sebanyak Rp " + totalHargaTiketTransfer.totalHarga + "rb");
+            System.out.println("Transfer sebesar  Rp " + totalHargaTiketTransfer.totalHarga +"jt");
+        } else System.out.println("Transfer sebesar  Rp " + totalHargaTiketTransfer.totalHarga + "rb");
         System.out.println("Screenshot Hasil Pembayaran Sebagai Bukti Pembayaran!");
         System.out.println("---------------------------------------");
     }

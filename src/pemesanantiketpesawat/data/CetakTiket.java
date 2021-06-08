@@ -1,15 +1,15 @@
 package pemesanantiketpesawat.data;
 
 public class CetakTiket {
-    SetNamaMaskapai setNamaMaskapaiCetak = null;
+    NamaMaskapai NamaMaskapaiCetak = null;
     Penumpang penumpangCetak = null;
     SetKota setKotaCetak = null;
     IdTicket idTicketCetak = null;
 
 
 
-    public CetakTiket(SetNamaMaskapai setNamaMaskapaiCetak, Penumpang penumpangCetak, SetKota setKotaCetak, IdTicket idTicketCetak) {
-        this.setNamaMaskapaiCetak = setNamaMaskapaiCetak;
+    public CetakTiket(NamaMaskapai NamaMaskapaiCetak, Penumpang penumpangCetak, SetKota setKotaCetak, IdTicket idTicketCetak) {
+        this.NamaMaskapaiCetak = NamaMaskapaiCetak;
         this.penumpangCetak = penumpangCetak;
         this.setKotaCetak = setKotaCetak;
         this.idTicketCetak = idTicketCetak;
@@ -23,7 +23,7 @@ public class CetakTiket {
 
             System.out.println("------------------------------------------------");
             System.out.println("        _            _                       \r\n   __ _(_)_ __ _ __ | | __ _ _ __   ___  ___ \r\n  / _` | | '__| '_ \\| |/ _` | '_ \\ / _ \\/ __|\r\n | (_| | | |  | |_) | | (_| | | | |  __/\\__ \\\r\n  \\__,_|_|_|  | .__/|_|\\__,_|_| |_|\\___||___/\r\n              |_|         ");
-            System.out.println("Maskapai  : " + setNamaMaskapaiCetak.getNamaMaskapai());
+            System.out.println("Maskapai  : " + NamaMaskapaiCetak.getNamaMaskapai());
             System.out.println("Nama      : " + penumpangCetak.daftarNamaPenumpang.get(i));
             System.out.println("From      : " + setKotaCetak.getKotaAsal());
             System.out.println("To        : " + setKotaCetak.getKotaTujuan());
